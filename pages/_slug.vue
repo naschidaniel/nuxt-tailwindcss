@@ -3,7 +3,6 @@
 </template>
 
 <script>
-import { defineComponent } from '@vue/composition-api'
 import { useData } from '~/composable/useData'
 
 export default defineComponent({
