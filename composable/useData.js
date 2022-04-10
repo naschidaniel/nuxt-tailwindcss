@@ -7,7 +7,7 @@ export function useData() {
 
   console.log(route.value.fullPath)
   const fullPath = route.value.fullPath
-  if (fullPath === 'error') {
+  if (fullPath === '/error') {
     context.error({ statusCode: 404, message: 'Page not found' })
   }
   return { fullPath }
