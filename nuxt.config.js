@@ -1,4 +1,6 @@
-export default {
+import { defineNuxtConfig } from '@nuxt/bridge'
+
+export default defineNuxtConfig({
     css: [
         '@/assets/css/main.css',
     ],
@@ -12,6 +14,5 @@ export default {
     },
     buildModules: [
       '@nuxt/postcss8',
-      "@nuxtjs/composition-api/module"
     ],
-  }
+  })

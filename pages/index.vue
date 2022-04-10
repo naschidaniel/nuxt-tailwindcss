@@ -7,3 +7,14 @@
     <nuxt-link to="/123">123</nuxt-link>
   </div>
 </template>
+
+<script>
+import { defineComponent } from '@vue/composition-api'
+
+export default defineComponent({
+  setup() {
+    console.log('123')
+  },
+})
+</script>
+
