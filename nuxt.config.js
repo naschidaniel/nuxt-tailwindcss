@@ -12,5 +12,6 @@ export default {
     },
     buildModules: [
       '@nuxt/postcss8',
+      "@nuxtjs/composition-api/module"
     ],
   }
